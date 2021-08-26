@@ -71,12 +71,13 @@ body{
     padding-top: 100px;
     padding-left: 5%;
     padding-right: 5%;
-    margin-left: 25%;
-    display: block;
+    margin-left: 20%;
+    display: none;
     background-color: rgb(228, 107, 8);
     text-align: center;
     overflow: auto;
     font-size: x-large;
+    border: 3px solid black;
 }
 #playAgain{
     position: relative;
