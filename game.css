@@ -1,0 +1,88 @@
+body{
+    background-image: url('index.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:larger;
+    font-weight: bolder;
+}
+#title{
+    background-color: rgba(12, 12, 12, 0.6);
+    text-align: center;
+    border: 3px solid black;
+    color: rgb(228, 107, 8);
+    text-shadow: 1px 1px 3px black;
+}
+#pack{
+    width: 100%;
+    min-height: 500px;
+    margin: auto;
+    display: block;
+}
+#container{
+    position: relative;
+    margin-left: 5%;
+    width: 40%;
+    min-height: 400px;
+    margin-top: 5%;
+    background-color: rgb(221, 138, 69);
+    float: left;
+    border: 5px solid black;
+    box-shadow: 0 0 30px 5px rgb(68, 146, 146);
+    border-radius: 10px;
+}
+#disp{
+    position: absolute;
+    margin:5%;
+    z-index: 1;
+    overflow: auto;
+}
+#input{
+    width: 90%;
+    min-height: 150px;
+    position: absolute;
+    bottom: 2%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    border: 1px solid black;
+    background-color: rgb(68, 146, 146);
+    border-radius: 10px;
+}
+#timer{
+    position: relative;
+    margin-right: 10%;
+    font-size:25vh;
+    color: rgb(228, 107, 8);
+    float: right;
+    margin-top: 11%;
+}
+.correct{
+    color: rgb(3, 104, 3);
+}
+.wrong{
+    color: rgb(153, 10, 10);
+}
+#win{
+    position: relative;
+    width: 50%;
+    margin-top: 5%;
+    min-height: 200px;
+    padding-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 25%;
+    display: block;
+    background-color: rgb(228, 107, 8);
+    text-align: center;
+    overflow: auto;
+    font-size: x-large;
+}
+#playAgain{
+    position: relative;
+    margin-top: 5%;
+    width: auto;
+    background-color: rgb(68, 146, 146);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+body{
+    background-image: url('index.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:larger;
+    font-weight: bolder;
+}
+#heading{
+    background-color: rgba(12, 12, 12, 0.6);
+    text-align: center;
+    border: 3px solid black;
+    color: rgb(228, 107, 8);
+    text-shadow: 1px 1px 3px black;
+}
+h2{
+    text-align: center;
+    color: rgb(68, 146, 146);
+    text-shadow: 1px 1px 3px black;
+}
+#name{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 2%;
+    background-color: rgba(202, 14, 14, 0.87);
+    color: rgb(228, 107, 8);
+    text-shadow: 1px 1px 3px black;
+    border: 3px solid black;
+}
+input{
+    padding-top: 1%;
+}
+#check{
+    width: auto;
+    height: auto;
+    padding-top: 1%;
+    background-color: rgb(68, 146, 146);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+#resultbox{
+    width: 50%;
+    min-height: 200px;
+    margin: auto;
+    margin-top: 4%;
+    text-align: center;
+    background-color: rgba(202, 14, 14, 0.95);
+    overflow: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 3px solid black;
+    box-shadow: 0 0 15px 5px rgb(68, 146, 146);
+}
+#resultbox #head{
+    padding-top: 5px;
+    font-size: x-large;
+    color: rgb(68, 146, 146);
+    text-shadow: 1px 1px 3px black;
+}
+#result{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    margin: 2%;
+    color: rgb(228, 107, 8);
+    margin-top: 4%;
+    text-shadow: 1px 1px 3px black;
+}
